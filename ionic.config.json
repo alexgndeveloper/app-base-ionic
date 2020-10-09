@@ -1,0 +1,7 @@
+{
+  "name": "dfm-lavaderos",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
