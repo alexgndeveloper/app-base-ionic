@@ -1,6 +1,6 @@
 {
   "appId": "io.ionic.starter",
-  "appName": "dfm-lavaderos",
+  "appName": "App-base",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",

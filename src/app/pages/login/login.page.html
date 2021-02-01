@@ -1,0 +1,35 @@
+<ion-header mode="ios">
+  <ion-img src="assets/images/logo-dfm-lavaderos.png" class="logo-container"></ion-img>
+</ion-header>
+
+<ion-content>
+  <form [formGroup]="formGroup">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="12">
+          <app-input-text 
+            [control]="formGroup.get('username')"
+            [label]="'Usuario'"
+            [iconName]="'person-outline'">
+          </app-input-text>
+        </ion-col>
+        <ion-col size="12">
+          <app-input-password
+            [control]="formGroup.get('password')">
+          </app-input-password>
+        </ion-col>
+        <ion-col size="12">
+          <app-button 
+            [type]="'submit'"
+            [expand]="'block'"
+            [disabled]="formGroup.invalid"
+            [iconPosition]="'start'"
+            [iconName]="'log-in-outline'"
+            [label]="'Login'"
+            (click)="login()">
+          </app-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </form>
+</ion-content>

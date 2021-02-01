@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/" text="" *ngIf="backButton"></ion-back-button>
+      <ion-menu-button auto-hide="false" color="secondary" menu="first" *ngIf="menuButton"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{title}}</ion-title>
+    <ion-buttons slot="end" *ngIf="iconButton !== undefined">
+      <ion-button (click)="clickButton.emit()" [disabled]="disabledButton">
+        <ion-icon slot="icon-only" [name]="iconButton" [color]="colorButton"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>

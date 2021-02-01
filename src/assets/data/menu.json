@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "water-outline",
+    "name": "Servicio de Lavado Nuevo",
+    "redirecTo": "/service-edit"
+  },
+  {
+    "icon": "search-outline",
+    "name": "Revisar Servicio de Lavado",
+    "redirecTo": "/service-search"
+  },
+  {
+    "icon": "car-outline",
+    "name": "Crear Vehículo Ajeno",
+    "redirecTo": "/vehicle-edit"
+  },
+  {
+    "icon": "search-outline",
+    "name": "Buscar Vehículo",
+    "redirecTo": "/vehicle-search"
+  },
+  {
+    "icon": "person-outline",
+    "name": "Alta Cliente de Contado",
+    "redirecTo": "/client-edit"
+  },
+  {
+    "icon": "search-outline",
+    "name": "Revisar Ficha Cliente",
+    "redirecTo": "/client-search"
+  }
+]

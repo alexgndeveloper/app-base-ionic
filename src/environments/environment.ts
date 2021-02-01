@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  // apiDFMLavaderos: 'https://192.168.200.173/LavaderoApi/api'
+  apiDFMLavaderos: 'http://192.168.200.161/RsaWebAPI/api'
 };
 
 /*

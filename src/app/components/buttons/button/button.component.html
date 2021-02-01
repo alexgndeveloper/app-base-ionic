@@ -1,0 +1,14 @@
+<ion-button
+  [color]="color" 
+  [disabled]="disabled" 
+  [type]="type" 
+  [expand]="expand" 
+  [fill]="fill"
+  [shape]="shape"
+  [size]="size">
+  <ion-icon *ngIf="iconPosition && iconName" 
+    [slot]="iconPosition" 
+    [name]="iconName">
+  </ion-icon>
+  {{label}}
+</ion-button>

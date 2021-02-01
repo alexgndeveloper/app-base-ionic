@@ -1,0 +1,5 @@
+<ion-item [lines]="linesItem">
+  <ion-label [position]="labelPosition">{{label}}</ion-label>
+  <ion-icon [slot]="iconPosition" [name]="iconName" *ngIf="iconName !== undefined"></ion-icon>
+  <ion-input type="text" color="secondary" [formControl]="control" [clearInput]="cleanInput"></ion-input>
+</ion-item>
